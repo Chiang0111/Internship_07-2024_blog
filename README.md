@@ -1,0 +1,1 @@
+# Internship_07-2024_blog
