@@ -10,3 +10,8 @@ Due to the high costs associated with end-to-end integration, unit tests will be
 #### 專有名詞解釋 Explanation
 1. **_整合測試 Integration Testing_** : 整合多方資源進行測試，確保模組與模組之間的互動行為正確無誤，也讓不同模組在各自開發維護的過程中不會因為功能調整而遭到破壞。 Integrating multiple resources for testing ensures that the interactions between modules are accurate and error-free. This approach also prevents any disruption or damage to different modules during their respective development and maintenance processes due to functional adjustments.
 2.  **_端對端測試 End-to-end Testing ( E2E Testing )_**: 是指從使用者的角度出發，對真實系統進行測試。From the user's perspective, it refers to testing the real system.
+
+### 單元測試的注意事項？Limitation of "Unit Testing"?
+1. **_不可以與真實世界有互動（API, DB）_** Do not have the connection with real web during the unit testing
+2. **_專住在單元本身_** Focus on the "Unit", not other related functions
+3. **_測試的覆蓋率不需達到100%_** 100% successful is not needed
