@@ -1,3 +1,2 @@
-# 工作內容：為一個 CV Analysis系統建立security系統
-
-# Week 01 團隊進度：
+# Week 1 實習心得 Internship Blog
+## 主要學習內容 Main Learning Target: 
